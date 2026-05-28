@@ -60,6 +60,9 @@ class ExactMatcher:
         self._index_cache[rid] = index
         return index
 
+    def invalidate_cache(self) -> None:
+        self._index_cache.clear()
+
     def match(
         self,
         normalized: NormalizedName,

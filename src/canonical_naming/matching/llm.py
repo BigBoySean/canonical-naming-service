@@ -124,6 +124,9 @@ class LLMMatcher:
         self._index_cache[rid] = index
         return index
 
+    def invalidate_cache(self) -> None:
+        self._index_cache.clear()
+
     def _get_client(self) -> Anthropic:
         if self._client is None:
             self._client = Anthropic(

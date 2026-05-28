@@ -27,6 +27,13 @@ class Matcher(Protocol):
     The resolver service calls them in order and accepts the first
     non-None result; if every matcher returns `None`, the service
     synthesises a `needs_review` response.
+
+    `invalidate_cache()` is part of the contract because every matcher
+    here builds an index over the repo's entities and caches it. After
+    a repo mutation (`POST /entities` -> `repo.add()`), the resolver
+    service calls `invalidate_cache()` on each matcher so the next
+    `match()` rebuilds against the new state. Matchers without internal
+    caching implement it as a no-op (e.g. the test mock).
     """
 
     def match(
@@ -34,3 +41,5 @@ class Matcher(Protocol):
         normalized: NormalizedName,
         repo: EntityRepo,
     ) -> MatchResult | None: ...
+
+    def invalidate_cache(self) -> None: ...
