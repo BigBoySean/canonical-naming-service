@@ -1,0 +1,213 @@
+{
+  "entities": [
+    {
+      "canonical_id": "ent_blackstone_cp_viii",
+      "canonical_name": "Blackstone Capital Partners VIII, L.P.",
+      "aliases": [
+        "BCP VIII",
+        "Blackstone Cap. Partners 8",
+        "BX Cap Partners VIII",
+        "Blackstone Capital Partners 8",
+        "BCP 8"
+      ]
+    },
+    {
+      "canonical_id": "ent_kkr_americas_xiii",
+      "canonical_name": "KKR Americas Fund XIII, L.P.",
+      "aliases": [
+        "KKR Americas Fund 13",
+        "Kohlberg Kravis Roberts Americas XIII",
+        "KKR Americas XIII",
+        "KKR Americas 13",
+        "Kohlberg Kravis Roberts Americas Fund XIII"
+      ]
+    },
+    {
+      "canonical_id": "ent_apollo_investment_ix",
+      "canonical_name": "Apollo Investment Fund IX, L.P.",
+      "aliases": [
+        "Apollo Inv. Fund IX",
+        "AIF 9",
+        "Apollo Investment Fund 9",
+        "Apollo IX",
+        "AIF IX"
+      ]
+    },
+    {
+      "canonical_id": "ent_cvc_cp_viii",
+      "canonical_name": "CVC Capital Partners Fund VIII, SCSp",
+      "aliases": [
+        "CVC Capital Partners Fund VIII",
+        "CVC Fund VIII",
+        "CVC CP VIII",
+        "CVC Capital Partners 8",
+        "CVC VIII"
+      ]
+    },
+    {
+      "canonical_id": "ent_eqt_x",
+      "canonical_name": "EQT X, SCSp",
+      "aliases": [
+        "EQT X",
+        "EQT Fund X",
+        "EQT X No 1",
+        "EQT 10",
+        "EQT Fund 10"
+      ]
+    },
+    {
+      "canonical_id": "ent_carlyle_partners_viii",
+      "canonical_name": "Carlyle Partners VIII, L.P.",
+      "aliases": [
+        "Carlyle VIII",
+        "CP VIII",
+        "Carlyle Partners 8",
+        "Carlyle Group Partners VIII"
+      ]
+    },
+    {
+      "canonical_id": "ent_tpg_partners_ix",
+      "canonical_name": "TPG Partners IX, L.P.",
+      "aliases": [
+        "TPG IX",
+        "Texas Pacific Group Partners 9",
+        "TPG Partners 9",
+        "TPG Capital Partners IX"
+      ]
+    },
+    {
+      "canonical_id": "ent_warburg_pincus_global_xiv",
+      "canonical_name": "Warburg Pincus Global Growth XIV, L.P.",
+      "aliases": [
+        "WPGG XIV",
+        "Warburg Pincus Global Growth 14",
+        "WP Global Growth XIV",
+        "Warburg Pincus GG XIV"
+      ]
+    },
+    {
+      "canonical_id": "ent_bain_capital_xiii",
+      "canonical_name": "Bain Capital Fund XIII, L.P.",
+      "aliases": [
+        "Bain XIII",
+        "Bain Capital 13",
+        "BCF XIII",
+        "Bain Capital Fund 13"
+      ]
+    },
+    {
+      "canonical_id": "ent_advent_gpe_x",
+      "canonical_name": "Advent International GPE X, L.P.",
+      "aliases": [
+        "Advent GPE X",
+        "AIGPE 10",
+        "Advent International X",
+        "Advent X",
+        "Advent GPE 10"
+      ]
+    },
+    {
+      "canonical_id": "ent_permira_viii",
+      "canonical_name": "Permira VIII, SCSp",
+      "aliases": [
+        "Permira 8",
+        "Permira Fund VIII",
+        "Permira VIII Fund",
+        "Permira P8"
+      ]
+    },
+    {
+      "canonical_id": "ent_vista_equity_viii",
+      "canonical_name": "Vista Equity Partners Fund VIII, L.P.",
+      "aliases": [
+        "Vista VIII",
+        "VEPF VIII",
+        "Vista Equity 8",
+        "Vista Equity Partners 8",
+        "VEP Fund VIII"
+      ]
+    },
+    {
+      "canonical_id": "ent_silver_lake_partners_vii",
+      "canonical_name": "Silver Lake Partners VII, L.P.",
+      "aliases": [
+        "SLP VII",
+        "Silver Lake 7",
+        "Silver Lake Partners 7",
+        "SL Partners VII"
+      ]
+    },
+    {
+      "canonical_id": "ent_thoma_bravo_xv",
+      "canonical_name": "Thoma Bravo Fund XV, L.P.",
+      "aliases": [
+        "TB XV",
+        "Thoma Bravo 15",
+        "Thoma Bravo Fund 15",
+        "TB Fund XV"
+      ]
+    },
+    {
+      "canonical_id": "ent_hf_cp_x",
+      "canonical_name": "Hellman & Friedman Capital Partners X, L.P.",
+      "aliases": [
+        "H&F X",
+        "HFCP X",
+        "Hellman & Friedman 10",
+        "H&F Capital Partners X",
+        "Hellman and Friedman X"
+      ]
+    },
+    {
+      "canonical_id": "ent_apax_x",
+      "canonical_name": "Apax X, SCSp",
+      "aliases": [
+        "Apax 10",
+        "Apax Partners X",
+        "Apax Fund X",
+        "Apax Partners 10"
+      ]
+    },
+    {
+      "canonical_id": "ent_cinven_strategic_i",
+      "canonical_name": "Cinven Strategic Financials I, SCSp",
+      "aliases": [
+        "Cinven SF I",
+        "Cinven Strategic 1",
+        "Cinven Strategic Financials Fund I",
+        "Cinven SF 1"
+      ]
+    },
+    {
+      "canonical_id": "ent_societe_generale_cp_iii",
+      "canonical_name": "Société Générale Capital Partners III, S.A.",
+      "aliases": [
+        "SocGen CP III",
+        "Société Générale CP 3",
+        "SGCP III",
+        "Societe Generale Capital Partners 3",
+        "SocGen Capital Partners III"
+      ]
+    },
+    {
+      "canonical_id": "ent_brookfield_cp_vi",
+      "canonical_name": "Brookfield Capital Partners VI, L.P.",
+      "aliases": [
+        "Brookfield CP VI",
+        "Brookfield CP 6",
+        "BCP VI Brookfield",
+        "Brookfield Capital Partners 6"
+      ]
+    },
+    {
+      "canonical_id": "ent_triton_vi",
+      "canonical_name": "Triton Fund VI, GmbH & Co. KG",
+      "aliases": [
+        "Triton VI",
+        "Triton Fund 6",
+        "Triton 6",
+        "Triton Partners VI"
+      ]
+    }
+  ]
+}
