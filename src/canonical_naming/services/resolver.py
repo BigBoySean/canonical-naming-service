@@ -81,6 +81,11 @@ class ResolverService:
         logger.info("resolved %r -> needs_review (no tier matched)", raw_name)
         return self._needs_review_response(raw_name)
 
+    def get_entity(self, canonical_id: str) -> Entity | None:
+        """Look up an entity by canonical_id. Thin passthrough so API routes
+        don't reach into `self._repo` directly."""
+        return self._repo.get(canonical_id)
+
     def resolve_batch(self, raw_names: list[str]) -> list[ResolveResponse]:
         """Sequential v1 — see `02_EXPLANATION.md` for the async deferral
         rationale. Reuses the single-resolve path so behaviour is identical
