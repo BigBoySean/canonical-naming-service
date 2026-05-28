@@ -13,12 +13,13 @@ trivially simple ("first non-None wins") and each matcher remains free to
 tune its own threshold and decision logic.
 """
 
-from typing import Protocol
+from typing import Protocol, runtime_checkable
 
 from canonical_naming.models import MatchResult, NormalizedName
 from canonical_naming.repos.entity_repo import EntityRepo
 
 
+@runtime_checkable
 class Matcher(Protocol):
     """A single tier in the resolution cascade.
 

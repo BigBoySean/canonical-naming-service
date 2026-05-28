@@ -28,7 +28,7 @@ import logging
 
 from rapidfuzz import fuzz
 
-from canonical_naming.matching.normalizer import normalize
+from canonical_naming.matching._index import build_normalised_index
 from canonical_naming.models import MatchMethod, MatchResult, NormalizedName
 from canonical_naming.repos.entity_repo import EntityRepo
 
@@ -82,20 +82,12 @@ class FuzzyMatcher:
         self._threshold = threshold
         self._index_cache: dict[int, list[tuple[str, str, str]]] = {}
 
-    def _build_index(self, repo: EntityRepo) -> list[tuple[str, str, str]]:
-        index: list[tuple[str, str, str]] = []
-        for entity in repo.all_entities():
-            for name in (entity.canonical_name, *entity.aliases):
-                key = normalize(name).normalized
-                index.append((key, entity.canonical_id, entity.canonical_name))
-        return index
-
     def _get_index(self, repo: EntityRepo) -> list[tuple[str, str, str]]:
         rid = id(repo)
         cached = self._index_cache.get(rid)
         if cached is not None:
             return cached
-        index = self._build_index(repo)
+        index = build_normalised_index(repo)
         self._index_cache[rid] = index
         return index
 
