@@ -1,9 +1,9 @@
-from enum import Enum
+from enum import StrEnum
 
 from pydantic import BaseModel, Field
 
 
-class MatchMethod(str, Enum):
+class MatchMethod(StrEnum):
     """Which stage of the cascade produced (or failed to produce) the match."""
 
     EXACT = "exact"
