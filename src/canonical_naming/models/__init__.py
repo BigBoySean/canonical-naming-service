@@ -6,7 +6,7 @@ from canonical_naming.models.api import (
     ResolveResponse,
 )
 from canonical_naming.models.entity import Entity
-from canonical_naming.models.matching import MatchMethod, MatchResult
+from canonical_naming.models.matching import MatchMethod, MatchResult, NormalizedName
 
 __all__ = [
     "BatchResolveRequest",
@@ -15,6 +15,7 @@ __all__ = [
     "Entity",
     "MatchMethod",
     "MatchResult",
+    "NormalizedName",
     "ResolveRequest",
     "ResolveResponse",
 ]
